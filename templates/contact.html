@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- navigation bar  -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-success fw-bold" href="/home">Godfrey Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold me-3" aria-current="page" href="/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold me-3" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold me-3" href="/contact">Contact us</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="/register"><button class="btn btn-outline-secondary me-4">Register</button></a>
+                    <a href="/login"><button class="btn btn-outline-success">Login</button></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- naviagtion end  -->
+
+    <!-- all contents  -->
+    <div class="container mb-5">
+        <div class="text-center">
+            <h1 class="mt-5 p-5 text-success fs-2 fw-bold"><u>Contact Us</u></h1>
+        </div>
+
+        <form action="">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Full name</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2"
+                    style="height: 200px"></textarea>
+            </div>
+            <div class="mt-4 text-end">
+                <a href="/" class="btn btn-outline-success mb-5">SEND MESSAGE &raquo;</a>
+            </div>
+        </form>
+    </div>
+    <!-- contents end  -->
+
+    <!-- footer -->
+    <div class="container-fluid bg-light fixed-bottom mt-5">
+        <footer class=" my-4 ">
+            <p class="text-center text-body-secondary">&copy; 2023 Godfrey Blog || All Rights Reserved</p>
+        </footer>
+    </div>
+    <!-- footer end  -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

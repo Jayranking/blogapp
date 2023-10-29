@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px;
+}
+
+/* login  */
+.form-signin {
+    /* max-width: 330px; */
+    padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form {
+    max-width: 500px !important;
+}
+
+.form1 {
+    padding: 45px 35px 35px !important;
+
+}
+
+.fs {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+@media(max-width: 480px) {
+    .form-signin {
+        padding: 100px 5px !important;
+        height: auto;
+    }
+}
+
+#account-section {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 100vh;
+}
+
+.pass {
+    display: inline-flex;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    width: 100%;
+    border-radius: 4px;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+}
+
